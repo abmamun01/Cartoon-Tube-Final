@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501264120003",
+    "project_id": "cartoon-tube-c5d77",
+    "storage_bucket": "cartoon-tube-c5d77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501264120003:android:33c668328df83393144a76",
+        "android_client_info": {
+          "package_name": "com.mamunsproject.youtubekids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501264120003-uuu8ln3aeratlct88go0uu3dnlmr5rne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk4zMr4r1ifya8IpeA8112jNuLCfCwezE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501264120003-uuu8ln3aeratlct88go0uu3dnlmr5rne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

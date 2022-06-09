@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mamunsproject.youtubekids">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".MyApplicationHilt"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/iconof_cartoon_tube"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/iconof_cartoon_tube"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CartoonTubeRefineFinal"
+        tools:replace="android:icon">
+
+        <activity
+            android:name=".activity.Hindi_Cartoon"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MrBeanCartoon"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BanglaCartoon"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Oggy_and_coakroaches"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Ben10"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Doraemon"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MotuPatlu"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TomJerry"
+            android:exported="false" />
+        <activity
+            android:name=".PlayerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivityO"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
